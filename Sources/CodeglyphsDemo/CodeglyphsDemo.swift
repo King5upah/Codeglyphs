@@ -5,8 +5,25 @@ import Codeglyphs
 struct CodeglyphsDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            DemoContentView()
+            MainTabView()
         }
+    }
+}
+
+struct MainTabView: View {
+    var body: some View {
+        TabView {
+            DemoContentView()
+                .tabItem {
+                    Label("Editor", systemImage: "pencil.and.outline")
+                }
+            
+            DocumentationView()
+                .tabItem {
+                    Label("Guide", systemImage: "book.fill")
+                }
+        }
+        .tint(.blue)
     }
 }
 
@@ -41,6 +58,70 @@ struct DemoContentView: View {
             }
             .navigationTitle("Codéglyphs Demo")
         }
+    }
+}
+
+struct DocumentationView: View {
+    let installationCode = """
+    // Add to your Package.swift
+    dependencies: [
+        .package(url: "https://github.com/King5upah/Codeglyphs", from: "1.0.0")
+    ]
+    """
+    
+    let usageCode = """
+    import SwiftUI
+    import Codeglyphs
+
+    struct ContentView: View {
+        var body: some View {
+            CodeglyphView("print('Hello World')", language: "swift")
+        }
+    }
+    """
+    
+    var body: some View {
+        NavigationStack {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 24) {
+                    Text("How to use Codéglyphs")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                    
+                    Text("Bring the power of the Void Century to your own iOS project.")
+                        .foregroundColor(.secondary)
+                    
+                    SectionHeader(title: "1. Installation")
+                    Text("Add the package via Swift Package Manager using the repository URL:")
+                    CodeglyphView("https://github.com/King5upah/Codeglyphs", language: "url")
+                    
+                    SectionHeader(title: "2. Swift Package Manifest")
+                    Text("Or add it directly to your Package.swift dependencies:")
+                    CodeglyphView(installationCode, language: "swift")
+                    
+                    SectionHeader(title: "3. Basic Usage")
+                    Text("Import the library and use the CodeglyphView component:")
+                    CodeglyphView(usageCode, language: "swift")
+                    
+                    SectionHeader(title: "4. Customizing Themes")
+                    Text("You can pass a custom CodeglyphTheme to match your app's aesthetic. The default is .voidCentury.")
+                    
+                    Spacer(minLength: 50)
+                }
+                .padding()
+            }
+            .navigationTitle("Guide")
+        }
+    }
+}
+
+struct SectionHeader: View {
+    let title: String
+    var body: some View {
+        Text(title)
+            .font(.title3)
+            .fontWeight(.bold)
+            .padding(.top)
     }
 }
 

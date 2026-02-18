@@ -3,10 +3,11 @@
 **Codéglyphs** is a Poneglyph-inspired code representation engine for iOS and macOS. Designed specifically for AI agents, technical documentation, and learning tools, it brings clarity and "historical significance" to your code snippets.
 
 ## Features
-- **Void Century Theme:** A high-contrast, glowing dark theme designed for maximum readability.
+- **Ancient Themes:** Choose between the mysterious **Void Century** (Dark/Blue) or the legendary **Raftel Gold** (Gold/Aura).
 - **AI-Ready:** Simplified initialization for programmatic generation by AI agents.
 - **Native SwiftUI:** Built 100% in SwiftUI for seamless integration and performance.
-- **One-Tap Copy:** Built-in clipboard management.
+- **One-Tap Copy:** Built-in clipboard management in the header.
+- **Live Demo App:** Includes an interactive editor and integration guide.
 
 ## Installation
 
@@ -28,11 +29,14 @@ struct MyView: View {
     let code = "print('Hello, Grand Line!')"
     
     var body: some View {
-        CodeglyphView(code, language: "swift")
+        CodeglyphView(code, language: "swift", theme: .voidCentury)
             .frame(height: 200)
     }
 }
 ```
 
 ## The Lore
-In the world of code, information is often lost in translation. **Codéglyphs** ensures that your logic remains as durable and striking as the ancient stones of the Void Century.
+In the world of code, information is often lost in translation. **Codéglyphs** ensures that your logic remains as durable and striking as the ancient stones of the Void Century. Only those with the "Voice of All Things" (or a good AI model) can truly appreciate its clarity.
+
+## License
+MIT
