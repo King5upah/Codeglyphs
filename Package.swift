@@ -3,21 +3,26 @@ import PackageDescription
 
 let package = Package(
     name: "Codeglyphs",
-    platforms: [.iOS(.v17), .macOS(.v14)],
+    platforms: [
+        .iOS(.v17),
+        .macOS(.v14)
+    ],
     products: [
         .library(
             name: "Codeglyphs",
             targets: ["Codeglyphs"]),
     ],
-    dependencies: [
-        // AI-ready syntax highlighting often benefits from Splash or SwiftSyntax
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "Codeglyphs",
-            dependencies: []),
+            dependencies: [],
+            path: "Sources/Codeglyphs"
+        ),
         .testTarget(
             name: "CodeglyphsTests",
-            dependencies: ["Codeglyphs"]),
+            dependencies: ["Codeglyphs"],
+            path: "Tests/CodeglyphsTests"
+        ),
     ]
 )

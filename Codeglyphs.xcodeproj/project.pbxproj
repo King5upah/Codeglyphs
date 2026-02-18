@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		744F54B9142DC5A6EB5BCA1F /* Codeglyphs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59181AABC881F2E2CA9EB8CB /* Codeglyphs.framework */; };
+		93ACA1864DA06BE90343CB43 /* CodeRepresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D8D96FD5E2BE1A5084E36 /* CodeRepresenterTests.swift */; };
+		D54BB5A7A53F62C1BF85F31D /* CodeglyphsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5F7D4067741FAFB17AD818 /* CodeglyphsDemo.swift */; };
+		D5FE62A0417211C7CAF9DF40 /* Codeglyphs.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 59181AABC881F2E2CA9EB8CB /* Codeglyphs.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1BB2234A39D2B830CC0BD5B /* Codeglyphs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59181AABC881F2E2CA9EB8CB /* Codeglyphs.framework */; };
+		F243B34F778BD3B882F30FAA /* Codeglyphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279372DB048D327873DF5C53 /* Codeglyphs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4778286D5DDC3E3988DB6A8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE3A2692BD79A2A68A2390F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED2025252AC5314825D87BA8;
+			remoteInfo = Codeglyphs;
+		};
+		4BE62B1B84565E7106D2AA87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE3A2692BD79A2A68A2390F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED2025252AC5314825D87BA8;
+			remoteInfo = Codeglyphs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8EA3265DDCEE328CDE134D3A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0607CF62FC6D3881112923 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5EA2E5A7DC3419AE143462D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D5FE62A0417211C7CAF9DF40 /* Codeglyphs.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		214F0509710026A9E02FC414 /* CodeglyphsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeglyphsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		279372DB048D327873DF5C53 /* Codeglyphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codeglyphs.swift; sourceTree = "<group>"; };
+		2CEF7C0C79833656C9A84C25 /* CodeglyphsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CodeglyphsTests-Info.plist"; sourceTree = "<group>"; };
+		3721F6BD2A3A7ECE6BB4FD4E /* CodeglyphsDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CodeglyphsDemo-Info.plist"; sourceTree = "<group>"; };
+		4C5D8D96FD5E2BE1A5084E36 /* CodeRepresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRepresenterTests.swift; sourceTree = "<group>"; };
+		59181AABC881F2E2CA9EB8CB /* Codeglyphs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Codeglyphs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1DD9790EB8DA22C52FAF68B /* CodeglyphsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeglyphsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5F7D4067741FAFB17AD818 /* CodeglyphsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeglyphsDemo.swift; sourceTree = "<group>"; };
+		EF89FE0CC0726F97ABF88251 /* Codeglyphs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Codeglyphs-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E9FA8A3B34A0D53618D6DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1576C09F4C1759173F6E82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BB2234A39D2B830CC0BD5B /* Codeglyphs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB9612C2B9CAD08C71D0624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744F54B9142DC5A6EB5BCA1F /* Codeglyphs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		257F1E820D7E684D6DF0F14E /* CodeglyphsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5D8D96FD5E2BE1A5084E36 /* CodeRepresenterTests.swift */,
+			);
+			path = CodeglyphsTests;
+			sourceTree = "<group>";
+		};
+		424EA06C84EC4A6DD73B08D8 /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				5B02148B24BE195187B77CC4 /* InfoPlists */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		449EFC9E1D2F8594E9B70423 /* Codeglyphs */ = {
+			isa = PBXGroup;
+			children = (
+				279372DB048D327873DF5C53 /* Codeglyphs.swift */,
+			);
+			path = Codeglyphs;
+			sourceTree = "<group>";
+		};
+		4E6A03FA20C2C33B42A9A95E /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				424EA06C84EC4A6DD73B08D8 /* Derived */,
+				9DDEB344B4064AD3279F395A /* Sources */,
+				8096577B1E87E03CD1D0BE5F /* Tests */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		549AC0CAD91C72800D092AE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59181AABC881F2E2CA9EB8CB /* Codeglyphs.framework */,
+				214F0509710026A9E02FC414 /* CodeglyphsDemo.app */,
+				B1DD9790EB8DA22C52FAF68B /* CodeglyphsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B02148B24BE195187B77CC4 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				EF89FE0CC0726F97ABF88251 /* Codeglyphs-Info.plist */,
+				3721F6BD2A3A7ECE6BB4FD4E /* CodeglyphsDemo-Info.plist */,
+				2CEF7C0C79833656C9A84C25 /* CodeglyphsTests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		8096577B1E87E03CD1D0BE5F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				257F1E820D7E684D6DF0F14E /* CodeglyphsTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		9DDEB344B4064AD3279F395A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				449EFC9E1D2F8594E9B70423 /* Codeglyphs */,
+				BFED0E273AE2A3C6CED01C22 /* CodeglyphsDemo */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BFED0E273AE2A3C6CED01C22 /* CodeglyphsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF5F7D4067741FAFB17AD818 /* CodeglyphsDemo.swift */,
+			);
+			path = CodeglyphsDemo;
+			sourceTree = "<group>";
+		};
+		F6B621D5FCE2938F3A343ABF = {
+			isa = PBXGroup;
+			children = (
+				549AC0CAD91C72800D092AE8 /* Products */,
+				4E6A03FA20C2C33B42A9A95E /* Project */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042277DB9D4BFAC9FF3BFFF7 /* CodeglyphsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99377E0C17F778EEE225CABF /* Build configuration list for PBXNativeTarget "CodeglyphsDemo" */;
+			buildPhases = (
+				783D3592B76312DA323EAB47 /* Sources */,
+				15FF53B3C4C0E398371E516F /* Resources */,
+				C1576C09F4C1759173F6E82E /* Frameworks */,
+				F5EA2E5A7DC3419AE143462D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A67423CE7504573472906BF8 /* PBXTargetDependency */,
+			);
+			name = CodeglyphsDemo;
+			packageProductDependencies = (
+			);
+			productName = CodeglyphsDemo;
+			productReference = 214F0509710026A9E02FC414 /* CodeglyphsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D4779A8EEEBCB4B53007BD6 /* CodeglyphsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178A00D47900FF1F5CC48964 /* Build configuration list for PBXNativeTarget "CodeglyphsTests" */;
+			buildPhases = (
+				16353288956B4FF9BF9424E5 /* Sources */,
+				9C40EC0E1C11AD39826836CE /* Resources */,
+				CBB9612C2B9CAD08C71D0624 /* Frameworks */,
+				8EA3265DDCEE328CDE134D3A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93B48763DD79B99F6B279437 /* PBXTargetDependency */,
+			);
+			name = CodeglyphsTests;
+			packageProductDependencies = (
+			);
+			productName = CodeglyphsTests;
+			productReference = B1DD9790EB8DA22C52FAF68B /* CodeglyphsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED2025252AC5314825D87BA8 /* Codeglyphs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DFC1C5CC5AACA94C487ED31 /* Build configuration list for PBXNativeTarget "Codeglyphs" */;
+			buildPhases = (
+				C3DE4276A13C2BB00D4AD1B4 /* Sources */,
+				521BA604267415D155E1CCAA /* Resources */,
+				2E9FA8A3B34A0D53618D6DD9 /* Frameworks */,
+				CE0607CF62FC6D3881112923 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Codeglyphs;
+			packageProductDependencies = (
+			);
+			productName = Codeglyphs;
+			productReference = 59181AABC881F2E2CA9EB8CB /* Codeglyphs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDE3A2692BD79A2A68A2390F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 8473287DC2EF64664B80A640 /* Build configuration list for PBXProject "Codeglyphs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F6B621D5FCE2938F3A343ABF;
+			productRefGroup = 549AC0CAD91C72800D092AE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED2025252AC5314825D87BA8 /* Codeglyphs */,
+				042277DB9D4BFAC9FF3BFFF7 /* CodeglyphsDemo */,
+				3D4779A8EEEBCB4B53007BD6 /* CodeglyphsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15FF53B3C4C0E398371E516F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521BA604267415D155E1CCAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C40EC0E1C11AD39826836CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16353288956B4FF9BF9424E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93ACA1864DA06BE90343CB43 /* CodeRepresenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783D3592B76312DA323EAB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54BB5A7A53F62C1BF85F31D /* CodeglyphsDemo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DE4276A13C2BB00D4AD1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F243B34F778BD3B882F30FAA /* Codeglyphs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93B48763DD79B99F6B279437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Codeglyphs;
+			target = ED2025252AC5314825D87BA8 /* Codeglyphs */;
+			targetProxy = 4BE62B1B84565E7106D2AA87 /* PBXContainerItemProxy */;
+		};
+		A67423CE7504573472906BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Codeglyphs;
+			target = ED2025252AC5314825D87BA8 /* Codeglyphs */;
+			targetProxy = 4778286D5DDC3E3988DB6A8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F9ACA206C4BC34E1CBED5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63E5C3B62FF12BFB98BB44AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/CodeglyphsDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodolfo.CodeglyphsDemo;
+				PRODUCT_NAME = CodeglyphsDemo;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AC33F54465D735A857187BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/CodeglyphsTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodolfo.CodeglyphsTests;
+				PRODUCT_NAME = CodeglyphsTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D0E705C59C3819A2121AA8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/Codeglyphs-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodolfo.Codeglyphs;
+				PRODUCT_NAME = Codeglyphs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A57EDC03669B14B715DEF259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A592E7293D4518037F4B9FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/CodeglyphsDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodolfo.CodeglyphsDemo;
+				PRODUCT_NAME = CodeglyphsDemo;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C76012D87E3B934DA4B11966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Derived/InfoPlists/Codeglyphs-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodolfo.Codeglyphs;
+				PRODUCT_NAME = Codeglyphs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0BC41FD386847D06DB68166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/CodeglyphsTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodolfo.CodeglyphsTests;
+				PRODUCT_NAME = CodeglyphsTests;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178A00D47900FF1F5CC48964 /* Build configuration list for PBXNativeTarget "CodeglyphsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BC41FD386847D06DB68166 /* Debug */,
+				9AC33F54465D735A857187BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8473287DC2EF64664B80A640 /* Build configuration list for PBXProject "Codeglyphs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57EDC03669B14B715DEF259 /* Debug */,
+				1F9ACA206C4BC34E1CBED5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DFC1C5CC5AACA94C487ED31 /* Build configuration list for PBXNativeTarget "Codeglyphs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76012D87E3B934DA4B11966 /* Debug */,
+				9D0E705C59C3819A2121AA8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99377E0C17F778EEE225CABF /* Build configuration list for PBXNativeTarget "CodeglyphsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A592E7293D4518037F4B9FDB /* Debug */,
+				63E5C3B62FF12BFB98BB44AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDE3A2692BD79A2A68A2390F /* Project object */;
+}
