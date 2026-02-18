@@ -90,7 +90,7 @@ struct SyntaxHighlighter {
             let regex = try? NSRegularExpression(pattern: rule.pattern, options: [])
             regex?.enumerateMatches(in: code, options: [], range: range) { match, _, _ in
                 if let matchRange = match?.range, let range = Range(matchRange, in: attributedString) {
-                    attributedString[range].foregroundColor = rule.color(for: theme)
+                    attributedString[range].foregroundColor = rule.color(theme)
                 }
             }
         }
