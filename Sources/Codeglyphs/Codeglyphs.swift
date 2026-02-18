@@ -69,7 +69,7 @@ public struct CodeglyphView: View {
     }
 }
 
-public struct CodeglyphTheme {
+public struct CodeglyphTheme: Sendable {
     public let backgroundColor: Color
     public let headerColor: Color
     public let textColor: Color
@@ -77,6 +77,16 @@ public struct CodeglyphTheme {
     public let borderColor: Color
     public let accentColor: Color
     public let glowColor: Color
+    
+    public init(backgroundColor: Color, headerColor: Color, textColor: Color, secondaryTextColor: Color, borderColor: Color, accentColor: Color, glowColor: Color) {
+        self.backgroundColor = backgroundColor
+        self.headerColor = headerColor
+        self.textColor = textColor
+        self.secondaryTextColor = secondaryTextColor
+        self.borderColor = borderColor
+        self.accentColor = accentColor
+        self.glowColor = glowColor
+    }
     
     /// A dark, mysterious theme inspired by the stone blocks of the Void Century.
     public static let voidCentury = CodeglyphTheme(
